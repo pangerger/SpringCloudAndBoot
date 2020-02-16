@@ -1,0 +1,8 @@
+server:
+  port: 8900 # tomcat 端口，程序启动的端口
+spring:
+  application:
+    name: consumer-order # 程序名字
+
+user:
+  url: http://localhost:7900/user/

@@ -1,0 +1,5 @@
+server:
+  port: 7900 # tomcat 端口，程序启动的端口
+spring:
+  application:
+    name: provider-user # 程序名字
