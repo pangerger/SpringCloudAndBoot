@@ -3,3 +3,10 @@ server:
 spring:
   application:
     name: provider-user # 程序名字
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://pan:pan@127.0.0.1:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
+#    appname: provider-user

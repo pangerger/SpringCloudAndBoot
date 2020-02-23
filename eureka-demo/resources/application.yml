@@ -1,0 +1,17 @@
+server:
+  port: 8761 # tomcat 端口，程序启动的端口
+spring:
+  application:
+    name: eureka-demo # 程序名字
+  security: # 设置密码
+    user:
+      password: pan
+      name: pan
+eureka:
+  client:
+    register-with-eureka: false # 自身不做为服务注册到注册中心
+    fetch-registry: false # 从注册表拉取信息
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #eureka/ 后缀要带！为什么呢？？
+
+

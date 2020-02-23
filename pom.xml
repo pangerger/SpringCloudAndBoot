@@ -11,6 +11,7 @@
   <modules>
     <module>provider-user</module>
     <module>consumer-order</module>
+    <module>eureka-demo</module>
   </modules>
 
   <name>microservicedemo</name>
